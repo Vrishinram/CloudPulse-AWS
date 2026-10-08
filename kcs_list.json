@@ -1,0 +1,482 @@
+[
+  {
+    "id": 645214,
+    "name": "KC - Introduction to Cloud Computing ",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32562&type=bundle_content&secret=u5LuwiKZi6qz9OQEpbhsSeWBtxMC"
+  },
+  {
+    "id": 645116,
+    "name": "KC - Basic Computing Concepts",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32557&type=bundle_content&secret=y_7PoxYwjsAOzC3iTN3O3-V5joLV"
+  },
+  {
+    "id": 645168,
+    "name": "KC - Development Team Roles",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32558&type=bundle_content&secret=rS6nsOInRK4fibjNw_jy8Yf_V98-"
+  },
+  {
+    "id": 645308,
+    "name": "KC - What is Cloud Computing?",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32565&type=bundle_content&secret=Fl5QwafsLesuhTEZQM6RKpkLLA3x"
+  },
+  {
+    "id": 645306,
+    "name": "KC - What is Amazon Web Services?",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32564&type=bundle_content&secret=OxEhTl1soSshPAcKKR20rZZ_G3py"
+  },
+  {
+    "id": 645208,
+    "name": "KC - Introduction to Amazon EC2",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32560&type=bundle_content&secret=w9ucxwnXia7UMrC4fcfj7wHVUyYX"
+  },
+  {
+    "id": 645182,
+    "name": "KC - Fundamentals of AWS Pricing",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32559&type=bundle_content&secret=vtOKhvGqf1tODwaLcGxucbTZH5_t"
+  },
+  {
+    "id": 645076,
+    "name": "KC - AWS Infrastructure Overview",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32555&type=bundle_content&secret=wocdpSW-0qjACtzoa-MYoRe2clO_"
+  },
+  {
+    "id": 645287,
+    "name": "KC - Shared Responsibility Model",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32563&type=bundle_content&secret=NQPP0BMNRwV02bv5v-0ote5sZEXp"
+  },
+  {
+    "id": 645211,
+    "name": "KC - Introduction to Amazon S3",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32561&type=bundle_content&secret=XwvG7ZpjGuuz-2wSXws0w-Zql_Xi"
+  },
+  {
+    "id": 645092,
+    "name": "KC - Advantages of Cloud Computing",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32554&type=bundle_content&secret=kRyihnonHrX8j-Ufew4877CAcCrz"
+  },
+  {
+    "id": 645085,
+    "name": "KC - AWS Services and Service Categories",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32556&type=bundle_content&secret=ghUEReHGKgp9Ru0F3CeAk1wpMk_o"
+  },
+  {
+    "id": 645069,
+    "name": "KC - AWS Database Services",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32621&type=bundle_content&secret=OngIWi4KPJM5cFGhOwtQ4K10fkHp"
+  },
+  {
+    "id": 645078,
+    "name": "KC - AWS Networking Services",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32622&type=bundle_content&secret=9nMUSojwuqqaMa_FogWLBoPoMU-F"
+  },
+  {
+    "id": 645293,
+    "name": "KC - Storage and Archiving",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32623&type=bundle_content&secret=fuY_I9LgambBOfFrOsQVXdHQDZa9"
+  },
+  {
+    "id": 645256,
+    "name": "KC - Monitoring and Security",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32624&type=bundle_content&secret=A9U9pL1F6Xs8-l2Z_0AUPFHV9QTe"
+  },
+  {
+    "id": 645248,
+    "name": "KC - Managing Resource Consumption",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32625&type=bundle_content&secret=mFPVvTq873CLPBY3uRt0NN13ddtv"
+  },
+  {
+    "id": 645139,
+    "name": "KC - Creating Automated Repeatable Deployments",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32626&type=bundle_content&secret=AYAlzewYgAigYH8cX_zBhs2S3VP9"
+  },
+  {
+    "id": 645224,
+    "name": "KC - Introduction to Programming",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32648&type=bundle_content&secret=Gp6xqVZ-p9DZel5XBngYKu8Soey_"
+  },
+  {
+    "id": 645227,
+    "name": "KC - Introduction to Python",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32647&type=bundle_content&secret=H5jFg5YApYTryyG1mkQ088JCvlue"
+  },
+  {
+    "id": 645267,
+    "name": "KC - Python Basics",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32646&type=bundle_content&secret=AiVsJ5asRe_HefjOSGtwHTIYJBKY"
+  },
+  {
+    "id": 645175,
+    "name": "KC - Flow Control",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32645&type=bundle_content&secret=7BMD1pWfJD5mSSjsscbhQ-MFDQB8"
+  },
+  {
+    "id": 645178,
+    "name": "KC - Functions",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32644&type=bundle_content&secret=IiZiL4sb6NAczVc3mZThC3dyE-df"
+  },
+  {
+    "id": 645254,
+    "name": "KC - Modules and Libraries",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32643&type=bundle_content&secret=GATdB8n1L1hGCZ6ncCLnC2ZXmLnA"
+  },
+  {
+    "id": 645156,
+    "name": "KC - Debugging and Testing",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32642&type=bundle_content&secret=uyAelngV0x4dchW44Wl2uCESfyZT"
+  },
+  {
+    "id": 645164,
+    "name": "KC - DevOps and Continuous Integration",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32641&type=bundle_content&secret=vg5Dj5sUtLvGxEB7h4HUgi0htmoE"
+  },
+  {
+    "id": 645135,
+    "name": "KC - Configuration Management",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32640&type=bundle_content&secret=V5WdHB7gopK7AiH5rLHG0NtEJigq"
+  },
+  {
+    "id": 645275,
+    "name": "KC - Scenario Test Strategy Practice",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32628&type=bundle_content&secret=YUtm4RgsWSX5NZs0UiuTfcvUF8HY"
+  },
+  {
+    "id": 645124,
+    "name": "KC - Cloud Computing",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32629&type=bundle_content&secret=T5SQzqISsUrrCLJy20UbstySC2B2"
+  },
+  {
+    "id": 645128,
+    "name": "KC - Cloud Economics",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32630&type=bundle_content&secret=vs0xRYL_QlTYoJlD6Oltnxfc4Z2f"
+  },
+  {
+    "id": 645071,
+    "name": "KC - AWS Global Infrastructure",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32631&type=bundle_content&secret=KdYw9xrkr1u4NyYmF8C7VNs8Us-C"
+  },
+  {
+    "id": 645132,
+    "name": "KC - Compute",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32632&type=bundle_content&secret=Sb0465mabdv6Q1JoMlLyKBXpBt2B"
+  },
+  {
+    "id": 645198,
+    "name": "KC - Identity and Access Management [IAM]",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32633&type=bundle_content&secret=BNjbYI8TrpznND1t0fsdxw86AWFC"
+  },
+  {
+    "id": 645102,
+    "name": "KC - Amazon Virtual Private Cloud [VPC]",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32634&type=bundle_content&secret=H8LEB5aCBBxkq4LBm59R0ytYIi_B"
+  },
+  {
+    "id": 645291,
+    "name": "KC - Storage",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32635&type=bundle_content&secret=ZdAOs_VE7_iKc0fS7LcUGu8akjvy"
+  },
+  {
+    "id": 645152,
+    "name": "KC - Databases",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32636&type=bundle_content&secret=1WDEMcc04IvlqpGLxJjYMB9Itxcn"
+  },
+  {
+    "id": 645218,
+    "name": "KC - Introduction to Databases",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32580&type=bundle_content&secret=lrFepVrlCuARjiFhcj-thkOxdUa6"
+  },
+  {
+    "id": 645143,
+    "name": "KC - Creating Tables and Learning Different Data Types",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32582&type=bundle_content&secret=NvSI2zpMwEvslGrs26PjGfXSBYcI"
+  },
+  {
+    "id": 645147,
+    "name": "KC - Data Interaction and Database Transaction",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32581&type=bundle_content&secret=Ul0HzQYxPU3avXb0u6xUO9Mh-ILl"
+  },
+  {
+    "id": 645201,
+    "name": "KC - Inserting Data into a Database",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32583&type=bundle_content&secret=4ZpmQX_-jVFA77UfaEQAqq5_Xesz"
+  },
+  {
+    "id": 645118,
+    "name": "KC - Billing and Support",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32637&type=bundle_content&secret=bGVpI0sy33jg4WIuk8TE5tdi9oHx"
+  },
+  {
+    "id": 645121,
+    "name": "KC - Cloud Architecting",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32638&type=bundle_content&secret=bs4p1YENPbd84Fcv-_-XG6AO_QVH"
+  },
+  {
+    "id": 645111,
+    "name": "KC - Balancing - Scaling - Monitoring",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32639&type=bundle_content&secret=6p8Fmvvj7DlCV_fiRlbxb4BsT0-_"
+  },
+  {
+    "id": 645318,
+    "name": "KC – AWS Architecture",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32678&type=bundle_content&secret=zmoO3ZMl_c579H3Ldi5RI63NFFMT"
+  },
+  {
+    "id": 645300,
+    "name": "KC - Tooling and Automation",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32617&type=bundle_content&secret=ryfzvd9T97ac3RCr5vFjvTPrn43f"
+  },
+  {
+    "id": 645295,
+    "name": "KC - System Operations",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32616&type=bundle_content&secret=N5rL5f_W--FsHobJWyM6A_PPwJMV"
+  },
+  {
+    "id": 645285,
+    "name": "KC - Servers",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32618&type=bundle_content&secret=HZep1EgS24LFoULHxM206AOQ0v2E"
+  },
+  {
+    "id": 645273,
+    "name": "KC - Scaling and Name Resolution",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32619&type=bundle_content&secret=mWWDKqpmDn-WtCqmmbntng7ew0wY"
+  },
+  {
+    "id": 645283,
+    "name": "KC - Serverless and Containers",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32620&type=bundle_content&secret=jt7ipMoLAfbjNy58VO_N-68HGdsg"
+  },
+  {
+    "id": 645268,
+    "name": "KC - Python for System Administration",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32649&type=bundle_content&secret=atz0cc6plMm6M9J4_h0vg-V-D_Dc"
+  },
+  {
+    "id": 645230,
+    "name": "KC - Introduction to Security",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32591&type=bundle_content&secret=rHuG1nYa_zjCalKT1z1-tBLJmmfp"
+  },
+  {
+    "id": 645279,
+    "name": "KC - Security Lifecycle: Prevention",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32592&type=bundle_content&secret=4TdxpUzLPntK5OEPqTt2y_R41caD"
+  },
+  {
+    "id": 645258,
+    "name": "KC - Network Hardening",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32593&type=bundle_content&secret=rvZalR_VQ5twJJkZ3E0WU3kPyTmc"
+  },
+  {
+    "id": 645297,
+    "name": "KC - Systems Hardening",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32594&type=bundle_content&secret=jw93joGSDWvYIw_rp6Lm5MuFSTnH"
+  },
+  {
+    "id": 645150,
+    "name": "KC - Data Security",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32595&type=bundle_content&secret=j1TDeKBhCVJZFkrp9JzmoO-zTe6C"
+  },
+  {
+    "id": 645265,
+    "name": "KC - Public Key Infrastructure",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32597&type=bundle_content&secret=LwtKvJEHU6vVaqabRxDmMpkNqCWN"
+  },
+  {
+    "id": 645081,
+    "name": "KC - AWS Security Compliance Program",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32599&type=bundle_content&secret=ez18QD2xDh1t82AMQTqUkXSG6t45"
+  },
+  {
+    "id": 645193,
+    "name": "KC - Identity Management",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32598&type=bundle_content&secret=8Z1d0oDY1u07FT8Mz_hSxpbydVkZ"
+  },
+  {
+    "id": 645074,
+    "name": "KC - AWS IAM",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32600&type=bundle_content&secret=3AC1dMCrdlLgn--CcEF31h5I5_l3"
+  },
+  {
+    "id": 645160,
+    "name": "KC - Detection",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32601&type=bundle_content&secret=PKiCjawt52ef4b1cN-TauwCthYmA"
+  },
+  {
+    "id": 645064,
+    "name": "KC - AWS CloudTrail",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32602&type=bundle_content&secret=kA3H8NSawAmRrmU2kGcH4YL4eDfS"
+  },
+  {
+    "id": 645067,
+    "name": "KC - AWS Config",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32603&type=bundle_content&secret=4Bt5XSsryLG-LOa83ORRNlywHA0e"
+  },
+  {
+    "id": 645270,
+    "name": "KC - Response",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32604&type=bundle_content&secret=Nu1ywUGjQYQF1Cmbq0nOZ5zO_Msw"
+  },
+  {
+    "id": 645107,
+    "name": "KC - Analysis",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32605&type=bundle_content&secret=Iu-2HecHrXMRe6Af0inASVyFWV-_"
+  },
+  {
+    "id": 645302,
+    "name": "KC - Trusted Advisor",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32606&type=bundle_content&secret=l1JEILcyGxZnxOlpgHprrmJqGBRL"
+  },
+  {
+    "id": 645277,
+    "name": "KC - Security Best Practices",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32607&type=bundle_content&secret=1sF8F9FWz-ctOzDEoU7rHYZL9ugo"
+  },
+  {
+    "id": 645083,
+    "name": "KC - AWS Security Resources",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32608&type=bundle_content&secret=hwRL8yNmGVXXcPnwilkBsIwmxGaS"
+  },
+  {
+    "id": 645281,
+    "name": "KC - Selecting Data from a Database",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32584&type=bundle_content&secret=J4nvIpUEiSImvqW0JHx5moV3LvvX"
+  },
+  {
+    "id": 645263,
+    "name": "KC - Performing a Conditional Search",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32585&type=bundle_content&secret=wrkBSNOtYJHp_Jo2kxkg9Yr3TT1g"
+  },
+  {
+    "id": 645314,
+    "name": "KC - Working with Functions",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32586&type=bundle_content&secret=VzjQCOZBmC7waC1McwTFlYAKEHIp"
+  },
+  {
+    "id": 645261,
+    "name": "KC - Organizing Data",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32587&type=bundle_content&secret=w6UfIkLSjBYK_-R3U-IoHFkXNB8o"
+  },
+  {
+    "id": 645271,
+    "name": "KC - Retrieving Data from Multiple Tables",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32588&type=bundle_content&secret=EqpJBgJDb6z01LqPjEKthH2cYega"
+  },
+  {
+    "id": 645097,
+    "name": "KC - Amazon RDS",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32589&type=bundle_content&secret=JSwLlOxiSdOGEBwwARASJbhKQMSh"
+  },
+  {
+    "id": 645094,
+    "name": "KC - Amazon DynamoDB",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32590&type=bundle_content&secret=r16FQdJJwvfWaUku1sc8KnytVMaP"
+  },
+  {
+    "id": 645104,
+    "name": "KC - An Introduction to Linux",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32579&type=bundle_content&secret=huaYZh0FE--k6QAlc_EXZ6nIfyH2"
+  },
+  {
+    "id": 645233,
+    "name": "KC - Linux Command Line",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32578&type=bundle_content&secret=XavfLSG2zRgD3f9DdSoqH_-YFRes"
+  },
+  {
+    "id": 645304,
+    "name": "KC - Users and Groups",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32577&type=bundle_content&secret=6B4IRzZmSIemy6NewI_twp86YbHB"
+  },
+  {
+    "id": 645171,
+    "name": "KC - Editing Files",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32575&type=bundle_content&secret=49irRQmirFXnWlK5LIMwlykzyRsK"
+  },
+  {
+    "id": 645316,
+    "name": "KC - Working with the File System",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32576&type=bundle_content&secret=ns0-h7MNacMJRzSXc1YbQTyGdNSr"
+  },
+  {
+    "id": 645312,
+    "name": "KC - Working with Files",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32574&type=bundle_content&secret=bGVCdpmLpxN3gh0QIHCGwikGQsQr"
+  },
+  {
+    "id": 645237,
+    "name": "KC - Managing File Permissions",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32573&type=bundle_content&secret=RONNhUhEZ7Aa_sMobl45HvfTCNoG"
+  },
+  {
+    "id": 645310,
+    "name": "KC - Working with Commands",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32572&type=bundle_content&secret=izGELvQxaVlIISvztJCx0AuE8Jvc"
+  },
+  {
+    "id": 645245,
+    "name": "KC - Managing Processes",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32571&type=bundle_content&secret=yraAl-pnGaSblOYbJiwpzwnHleu5"
+  },
+  {
+    "id": 645252,
+    "name": "KC - Managing Services",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32570&type=bundle_content&secret=1xWxr3ENhmkfxNBz3sWONK4ocPn-"
+  },
+  {
+    "id": 645298,
+    "name": "KC - The Bash Shell",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32569&type=bundle_content&secret=XqKVXVSgoOM1uQJPwHzUK5hv1hxV"
+  },
+  {
+    "id": 645113,
+    "name": "KC - Bash Shell Scripts",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32568&type=bundle_content&secret=To0I5yq0coA4KitgmZmlRAW36gh3"
+  },
+  {
+    "id": 645289,
+    "name": "KC - Software Management",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32567&type=bundle_content&secret=O3muMDRbBNzVXQbUQC6nY2xCWjF6"
+  },
+  {
+    "id": 645240,
+    "name": "KC - Managing Log Files",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32566&type=bundle_content&secret=L2sUArZFfLO6sokDiOmz3AHPhhqA"
+  },
+  {
+    "id": 645221,
+    "name": "KC - Introduction to Networking",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32609&type=bundle_content&secret=EglzpN3_UlIrlP1nA7mwV4rAsqkX"
+  },
+  {
+    "id": 645260,
+    "name": "KC - Networking Concepts",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32610&type=bundle_content&secret=ItpzqmkKbgFZyBK8PlXRzlf0xhKr"
+  },
+  {
+    "id": 645205,
+    "name": "KC - Internet Protocol [IP]",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32611&type=bundle_content&secret=HvZpXHVWkSO85n0pqd-aE-e78TYH"
+  },
+  {
+    "id": 645099,
+    "name": "KC - Amazon VPC",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32612&type=bundle_content&secret=U1bidjqxtAWGxp6uaGo_9RGu_2XP"
+  },
+  {
+    "id": 645188,
+    "name": "KC - IP Subnetting",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32613&type=bundle_content&secret=0GK061a_lacuWO7yOv2YjM82_zMn"
+  },
+  {
+    "id": 645090,
+    "name": "KC - Additional Networking Technologies",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32614&type=bundle_content&secret=lIcfimPaS7WlUkKevGSBKxyKtsxS"
+  },
+  {
+    "id": 645087,
+    "name": "KC - Additional Networking Protocols",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32615&type=bundle_content&secret=NceU5p5I8PXNqvFurYm1bw5Z2yIG"
+  },
+  {
+    "id": 645109,
+    "name": "KC - Assessment Scenario Certification Preparation",
+    "tool_url": "https://emergingtalent.contentcontroller.com/api/launch/lti/1p3?dispatchId=32627&type=bundle_content&secret=Yv1KyKI1YR5MPjFN7e_U9Cy_frTm"
+  }
+]

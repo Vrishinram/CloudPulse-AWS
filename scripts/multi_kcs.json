@@ -1,0 +1,242 @@
+[
+  {
+    "id": 645064,
+    "name": "KC - AWS CloudTrail",
+    "module": "Security"
+  },
+  {
+    "id": 645067,
+    "name": "KC - AWS Config",
+    "module": "Security"
+  },
+  {
+    "id": 645074,
+    "name": "KC - AWS IAM",
+    "module": "Security"
+  },
+  {
+    "id": 645078,
+    "name": "KC - AWS Networking Services",
+    "module": "AWS Networking Services"
+  },
+  {
+    "id": 645081,
+    "name": "KC - AWS Security Compliance Program",
+    "module": "Security"
+  },
+  {
+    "id": 645083,
+    "name": "KC - AWS Security Resources",
+    "module": "Security"
+  },
+  {
+    "id": 645085,
+    "name": "KC - AWS Services and Service Categories",
+    "module": "Cloud Foundations"
+  },
+  {
+    "id": 645087,
+    "name": "KC - Additional Networking Protocols",
+    "module": "Networking"
+  },
+  {
+    "id": 645090,
+    "name": "KC - Additional Networking Technologies",
+    "module": "Networking"
+  },
+  {
+    "id": 645092,
+    "name": "KC - Advantages of Cloud Computing",
+    "module": "Cloud Foundations"
+  },
+  {
+    "id": 645104,
+    "name": "KC - An Introduction to Linux",
+    "module": "Linux"
+  },
+  {
+    "id": 645107,
+    "name": "KC - Analysis",
+    "module": "Security"
+  },
+  {
+    "id": 645109,
+    "name": "KC - Assessment Scenario Certification Preparation",
+    "module": "Exam Prep"
+  },
+  {
+    "id": 645111,
+    "name": "KC - Balancing - Scaling - Monitoring",
+    "module": "Exam Prep"
+  },
+  {
+    "id": 645113,
+    "name": "KC - Bash Shell Scripts",
+    "module": "Linux"
+  },
+  {
+    "id": 645116,
+    "name": "KC - Basic Computing Concepts",
+    "module": "Cloud Foundations"
+  },
+  {
+    "id": 645128,
+    "name": "KC - Cloud Economics",
+    "module": "Exam Prep"
+  },
+  {
+    "id": 645150,
+    "name": "KC - Data Security",
+    "module": "Security"
+  },
+  {
+    "id": 645156,
+    "name": "KC - Debugging and Testing",
+    "module": "Python Programming"
+  },
+  {
+    "id": 645160,
+    "name": "KC - Detection",
+    "module": "Security"
+  },
+  {
+    "id": 645164,
+    "name": "KC - DevOps and Continuous Integration",
+    "module": "Python Programming"
+  },
+  {
+    "id": 645168,
+    "name": "KC - Development Team Roles",
+    "module": "Cloud Foundations"
+  },
+  {
+    "id": 645175,
+    "name": "KC - Flow Control",
+    "module": "Python Programming"
+  },
+  {
+    "id": 645182,
+    "name": "KC - Fundamentals of AWS Pricing",
+    "module": "Cloud Foundations"
+  },
+  {
+    "id": 645188,
+    "name": "KC - IP Subnetting",
+    "module": "Networking"
+  },
+  {
+    "id": 645198,
+    "name": "KC - Identity and Access Management [IAM]",
+    "module": "Exam Prep"
+  },
+  {
+    "id": 645201,
+    "name": "KC - Inserting Data into a Database",
+    "module": "Databases"
+  },
+  {
+    "id": 645208,
+    "name": "KC - Introduction to Amazon EC2",
+    "module": "Cloud Foundations"
+  },
+  {
+    "id": 645211,
+    "name": "KC - Introduction to Amazon S3",
+    "module": "Cloud Foundations"
+  },
+  {
+    "id": 645214,
+    "name": "KC - Introduction to Cloud Computing",
+    "module": "Cloud Foundations"
+  },
+  {
+    "id": 645218,
+    "name": "KC - Introduction to Databases",
+    "module": "Databases"
+  },
+  {
+    "id": 645227,
+    "name": "KC - Introduction to Python",
+    "module": "Python Programming"
+  },
+  {
+    "id": 645240,
+    "name": "KC - Managing Log Files",
+    "module": "Linux"
+  },
+  {
+    "id": 645245,
+    "name": "KC - Managing Processes",
+    "module": "Linux"
+  },
+  {
+    "id": 645258,
+    "name": "KC - Network Hardening",
+    "module": "Security"
+  },
+  {
+    "id": 645267,
+    "name": "KC - Python Basics",
+    "module": "Python Programming"
+  },
+  {
+    "id": 645270,
+    "name": "KC - Response",
+    "module": "Security"
+  },
+  {
+    "id": 645275,
+    "name": "KC - Scenario Test Strategy Practice",
+    "module": "Exam Prep"
+  },
+  {
+    "id": 645279,
+    "name": "KC - Security Lifecycle: Prevention",
+    "module": "Security"
+  },
+  {
+    "id": 645289,
+    "name": "KC - Software Management",
+    "module": "Linux"
+  },
+  {
+    "id": 645291,
+    "name": "KC - Storage",
+    "module": "Exam Prep"
+  },
+  {
+    "id": 645295,
+    "name": "KC - System Operations",
+    "module": "Systems Operations"
+  },
+  {
+    "id": 645300,
+    "name": "KC - Tooling and Automation",
+    "module": "Tooling and Automation"
+  },
+  {
+    "id": 645302,
+    "name": "KC - Trusted Advisor",
+    "module": "Security"
+  },
+  {
+    "id": 645304,
+    "name": "KC - Users and Groups",
+    "module": "Linux"
+  },
+  {
+    "id": 645306,
+    "name": "KC - What is Amazon Web Services?",
+    "module": "Cloud Foundations"
+  },
+  {
+    "id": 645310,
+    "name": "KC - Working with Commands",
+    "module": "Linux"
+  },
+  {
+    "id": 645316,
+    "name": "KC - Working with the File System",
+    "module": "Linux"
+  }
+]
