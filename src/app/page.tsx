@@ -14,6 +14,7 @@ import { TopicSelector } from "@/components/TopicSelector";
 import { QuizCard } from "@/components/QuizCard";
 import { Scoreboard } from "@/components/Scoreboard";
 import { PdfExportModal } from "@/components/PdfExportModal";
+import { SocialUnlockModal } from "@/components/SocialUnlockModal";
 import {
   Layers,
   BookOpen,
@@ -61,8 +62,10 @@ export default function Home() {
   const [bookmarkedIds, setBookmarkedIds] = useState<string[]>([]);
   const [masteredQuestionIds, setMasteredQuestionIds] = useState<string[]>([]);
   const [isPdfModalOpen, setIsPdfModalOpen] = useState<boolean>(false);
+  const [isUnlocked, setIsUnlocked] = useState<boolean>(true);
+  const [isSocialModalOpen, setIsSocialModalOpen] = useState<boolean>(false);
 
-  // Initialize theme and bookmarks from localStorage on mount
+  // Initialize theme, bookmarks, and social unlock from localStorage on mount
   useEffect(() => {
     const savedTheme = localStorage.getItem("aws_kc_theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -90,6 +93,15 @@ export default function Home() {
       } catch (e) {
         console.error("Failed to parse mastery", e);
       }
+    }
+
+    const unlocked = localStorage.getItem("cloudpulse_unlocked") === "true";
+    setIsUnlocked(unlocked);
+    if (!unlocked) {
+      const timer = setTimeout(() => {
+        setIsSocialModalOpen(true);
+      }, 700);
+      return () => clearTimeout(timer);
     }
   }, []);
 
@@ -136,6 +148,11 @@ export default function Home() {
   // Start Quiz session
   const startQuiz = useCallback(
     (customQuestions?: Question[]) => {
+      if (!isUnlocked) {
+        setIsSocialModalOpen(true);
+        return;
+      }
+
       let pool = customQuestions || [...filteredPool];
       if (isShuffled) {
         pool = shuffleQuestions(pool);
@@ -154,7 +171,7 @@ export default function Home() {
       setViewState("quiz");
       window.scrollTo({ top: 0, behavior: "smooth" });
     },
-    [filteredPool, isShuffled, questionLimit]
+    [filteredPool, isShuffled, questionLimit, isUnlocked]
   );
 
   // Handle option select
@@ -282,7 +299,14 @@ export default function Home() {
         totalAnswered={masteredQuestionIds.length}
         totalQuestions={QUESTIONS.length}
         onResetProgress={handleResetProgress}
-        onOpenPdfExport={() => setIsPdfModalOpen(true)}
+        onOpenPdfExport={() => {
+          if (!isUnlocked) {
+            setIsSocialModalOpen(true);
+            return;
+          }
+          setIsPdfModalOpen(true);
+        }}
+        onOpenSocialModal={() => setIsSocialModalOpen(true)}
       />
 
       {/* Main Container */}
@@ -345,7 +369,13 @@ export default function Home() {
               onQuestionLimitChange={setQuestionLimit}
               onStartQuiz={() => startQuiz()}
               activeQuestionCount={filteredPool.length}
-              onOpenPdfExport={() => setIsPdfModalOpen(true)}
+              onOpenPdfExport={() => {
+                if (!isUnlocked) {
+                  setIsSocialModalOpen(true);
+                  return;
+                }
+                setIsPdfModalOpen(true);
+              }}
             />
 
             {/* Quick Module Jump Tiles */}
@@ -449,22 +479,46 @@ export default function Home() {
       {/* Footer */}
       <footer className="mt-auto border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f172a] py-6 text-center text-xs text-slate-500 dark:text-slate-400 transition-colors">
         <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <span className="font-semibold text-slate-700 dark:text-slate-300">
               AWS re/Start Knowledge Check Prep
             </span>
             <span>•</span>
-            <span>All 96 KC Topics Covered (584 Questions)</span>
+            <span>96 KC Topics Covered (588 Questions)</span>
           </div>
-          <div className="flex items-center gap-4 text-slate-400">
-            <span>Next.js 16 App Router</span>
+          <div className="flex items-center gap-3 text-slate-500 dark:text-slate-400">
+            <span>Built by <strong>Vrishin Ram K</strong></span>
             <span>•</span>
-            <span>TypeScript</span>
+            <a
+              href="https://github.com/Vrishinram"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-amber-500 transition"
+            >
+              GitHub
+            </a>
             <span>•</span>
-            <span>Tailwind CSS</span>
+            <a
+              href="https://linkedin.com/in/vrishin-ram-k"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition"
+            >
+              LinkedIn
+            </a>
+            <span>•</span>
+            <a
+              href="https://instagram.com/vrishinram"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-rose-500 transition"
+            >
+              Instagram
+            </a>
           </div>
         </div>
       </footer>
+
       {/* PDF Export Modal */}
       <PdfExportModal
         isOpen={isPdfModalOpen}
@@ -472,6 +526,16 @@ export default function Home() {
         currentFilteredQuestions={filteredPool}
         selectedModuleName={selectedModule}
         selectedTopicName={selectedTopic}
+      />
+
+      {/* Social Follow Unlock Gate Modal */}
+      <SocialUnlockModal
+        isOpen={isSocialModalOpen}
+        onClose={() => setIsSocialModalOpen(false)}
+        onUnlock={() => {
+          setIsUnlocked(true);
+          setIsSocialModalOpen(false);
+        }}
       />
     </div>
   );

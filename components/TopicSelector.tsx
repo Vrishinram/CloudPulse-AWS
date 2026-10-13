@@ -96,7 +96,7 @@ export function TopicSelector({
               AWS re/Start Knowledge Check Prep
             </span>
             <span className="text-xs text-slate-500 dark:text-slate-400 font-mono">
-              v1.0 • 65 KC Topics
+              v1.1 • 96 KC Topics (588 Qs)
             </span>
           </div>
           <h2 className="text-xl md:text-2xl font-bold tracking-tight text-slate-900 dark:text-white mt-1">

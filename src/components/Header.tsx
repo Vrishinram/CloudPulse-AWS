@@ -9,6 +9,7 @@ import {
   Award,
   Sparkles,
   RotateCcw,
+  Heart,
 } from "lucide-react";
 
 interface HeaderProps {
@@ -18,6 +19,7 @@ interface HeaderProps {
   totalQuestions: number;
   onResetProgress: () => void;
   onOpenPdfExport?: () => void;
+  onOpenSocialModal?: () => void;
 }
 
 export function Header({
@@ -27,6 +29,7 @@ export function Header({
   totalQuestions,
   onResetProgress,
   onOpenPdfExport,
+  onOpenSocialModal,
 }: HeaderProps) {
   return (
     <header className="sticky top-0 z-40 w-full border-b border-slate-200/80 dark:border-slate-800 bg-white/90 dark:bg-[#0f172a]/90 backdrop-blur-md transition-colors">
@@ -83,6 +86,18 @@ export function Header({
             >
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>PDF Study Guide</span>
+            </button>
+          )}
+
+          {/* Creator Socials / Support Gate */}
+          {onOpenSocialModal && (
+            <button
+              onClick={onOpenSocialModal}
+              title="Support Creator (GitHub, LinkedIn, Instagram)"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-rose-300 dark:border-rose-900/60 bg-rose-500/10 hover:bg-rose-500/20 text-rose-700 dark:text-rose-300 text-xs font-bold transition cursor-pointer"
+            >
+              <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
+              <span>Support Creator</span>
             </button>
           )}
 
