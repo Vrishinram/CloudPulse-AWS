@@ -304,9 +304,9 @@ export function QuizCard({
               )}
             </div>
 
-            <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-300 pl-7">
+            <div className="text-sm leading-relaxed text-slate-700 dark:text-slate-300 pl-7 whitespace-pre-line">
               {question.explanation}
-            </p>
+            </div>
           </div>
         )}
       </div>

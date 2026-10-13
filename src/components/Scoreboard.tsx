@@ -310,7 +310,7 @@ export function Scoreboard({
                       </div>
 
                       {/* Explanation box */}
-                      <div className="p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-xs leading-relaxed text-slate-700 dark:text-slate-300">
+                      <div className="p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-xs leading-relaxed text-slate-700 dark:text-slate-300 whitespace-pre-line">
                         <strong className="text-amber-600 dark:text-amber-400 block mb-1">
                           Explanation:
                         </strong>
