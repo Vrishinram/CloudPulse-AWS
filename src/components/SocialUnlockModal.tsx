@@ -24,7 +24,7 @@ const SOCIAL_LINKS = {
   github: "https://github.com/Vrishinram",
   githubRepo: "https://github.com/Vrishinram/CloudPulse-AWS",
   linkedin: "https://linkedin.com/in/vrishin-ram-k",
-  instagram: "https://instagram.com/vrishinram",
+  instagram: "https://instagram.com/cybersicker",
 };
 
 export function SocialUnlockModal({
@@ -302,7 +302,7 @@ export function SocialUnlockModal({
                   )}
                 </h4>
                 <p className="text-[11px] text-slate-500 dark:text-slate-400">
-                  Follow <strong>@vrishinram</strong> on Instagram
+                  Follow <strong>@cybersicker</strong> on Instagram
                 </p>
               </div>
             </div>

@@ -508,7 +508,7 @@ export default function Home() {
             </a>
             <span>•</span>
             <a
-              href="https://instagram.com/vrishinram"
+              href="https://instagram.com/cybersicker"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-rose-500 transition"
