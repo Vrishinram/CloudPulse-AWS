@@ -24,7 +24,7 @@ interface SocialUnlockModalProps {
 
 const SOCIAL_LINKS = {
   github: "https://github.com/Vrishinram",
-  linkedin: "https://linkedin.com/in/vrishin-ram-k",
+  linkedin: "https://www.linkedin.com/in/vrishin-ram-k-/",
   instagram: "https://instagram.com/cybersicker",
 };
 

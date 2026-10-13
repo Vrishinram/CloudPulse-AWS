@@ -505,7 +505,7 @@ export default function Home() {
             </a>
             <span>•</span>
             <a
-              href="https://linkedin.com/in/vrishin-ram-k"
+              href="https://www.linkedin.com/in/vrishin-ram-k-/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500 transition"
