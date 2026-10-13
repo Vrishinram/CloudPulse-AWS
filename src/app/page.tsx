@@ -62,11 +62,14 @@ export default function Home() {
   const [bookmarkedIds, setBookmarkedIds] = useState<string[]>([]);
   const [masteredQuestionIds, setMasteredQuestionIds] = useState<string[]>([]);
   const [isPdfModalOpen, setIsPdfModalOpen] = useState<boolean>(false);
-  const [isUnlocked, setIsUnlocked] = useState<boolean>(true);
+  const [isUnlocked, setIsUnlocked] = useState<boolean>(false);
+  const [isMounted, setIsMounted] = useState<boolean>(false);
   const [isSocialModalOpen, setIsSocialModalOpen] = useState<boolean>(false);
 
   // Initialize theme, bookmarks, and social unlock from localStorage on mount
   useEffect(() => {
+    setIsMounted(true);
+
     const savedTheme = localStorage.getItem("aws_kc_theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     const initialDark = savedTheme ? savedTheme === "dark" : prefersDark;
@@ -98,10 +101,7 @@ export default function Home() {
     const unlocked = localStorage.getItem("cloudpulse_unlocked") === "true";
     setIsUnlocked(unlocked);
     if (!unlocked) {
-      const timer = setTimeout(() => {
-        setIsSocialModalOpen(true);
-      }, 700);
-      return () => clearTimeout(timer);
+      setIsSocialModalOpen(true);
     }
   }, []);
 
@@ -309,8 +309,14 @@ export default function Home() {
         onOpenSocialModal={() => setIsSocialModalOpen(true)}
       />
 
-      {/* Main Container */}
-      <main className="flex-1 max-w-5xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      {/* Main Container - Protected by blur shield while !isUnlocked */}
+      <main
+        className={`flex-1 max-w-5xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 transition-all duration-300 ${
+          isMounted && !isUnlocked
+            ? "filter blur-md pointer-events-none select-none opacity-40"
+            : ""
+        }`}
+      >
         {/* VIEW 1: Topic & Settings Selector */}
         {viewState === "selector" && (
           <div className="space-y-8 animate-in fade-in duration-300">
@@ -530,8 +536,13 @@ export default function Home() {
 
       {/* Social Follow Unlock Gate Modal */}
       <SocialUnlockModal
-        isOpen={isSocialModalOpen}
-        onClose={() => setIsSocialModalOpen(false)}
+        isOpen={isSocialModalOpen || (isMounted && !isUnlocked)}
+        isLocked={!isUnlocked}
+        onClose={() => {
+          if (isUnlocked) {
+            setIsSocialModalOpen(false);
+          }
+        }}
         onUnlock={() => {
           setIsUnlocked(true);
           setIsSocialModalOpen(false);
